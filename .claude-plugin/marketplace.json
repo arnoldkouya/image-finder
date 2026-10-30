@@ -1,0 +1,11 @@
+{
+  "name": "image-finder",
+  "owner": { "name": "Arnold Kouya" },
+  "plugins": [
+    {
+      "name": "image-finder",
+      "source": "./",
+      "description": "Open-source web image search agent with license filtering, attribution and download."
+    }
+  ]
+}

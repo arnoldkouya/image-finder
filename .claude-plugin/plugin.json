@@ -1,0 +1,10 @@
+{
+  "name": "image-finder",
+  "version": "1.0.0",
+  "description": "Open-source web image search agent: finds open-licensed images (Openverse, Wikimedia Commons, NASA, Pexels, Unsplash, Pixabay) with license filtering, attribution and download.",
+  "author": { "name": "Arnold Kouya", "url": "https://github.com/arnoldkouya" },
+  "homepage": "https://github.com/arnoldkouya/image-finder",
+  "repository": "https://github.com/arnoldkouya/image-finder",
+  "license": "MIT",
+  "keywords": ["images", "search", "creative-commons", "mcp"]
+}

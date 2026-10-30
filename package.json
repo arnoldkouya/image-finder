@@ -1,0 +1,18 @@
+{
+  "name": "image-finder-agent",
+  "version": "1.0.0",
+  "description": "Open-source web image search agent (MCP server + CLI) for Claude Code and Codex. Searches Openverse, Wikimedia Commons, NASA, Pexels, Unsplash and Pixabay with license filtering and attribution.",
+  "type": "module",
+  "license": "MIT",
+  "bin": {
+    "image-finder": "skills/image-search/scripts/cli.js",
+    "image-finder-mcp": "skills/image-search/scripts/mcp.js"
+  },
+  "files": ["agents", "skills", "commands", ".claude-plugin", ".mcp.json", "codex", "scripts", "AGENTS.md"],
+  "engines": { "node": ">=18" },
+  "scripts": {
+    "test": "node --test test/*.test.js",
+    "mcp": "node skills/image-search/scripts/mcp.js"
+  },
+  "keywords": ["mcp", "image-search", "claude", "codex", "openverse", "wikimedia", "creative-commons"]
+}

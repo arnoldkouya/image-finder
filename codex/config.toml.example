@@ -1,0 +1,6 @@
+# Append to ~/.codex/config.toml (or run scripts/install-codex.sh)
+[mcp_servers.image-finder]
+command = "node"
+args = ["/ABSOLUTE/PATH/TO/image-finder/skills/image-search/scripts/mcp.js"]
+# Optional extra providers:
+# env = { PEXELS_API_KEY = "...", UNSPLASH_ACCESS_KEY = "...", PIXABAY_API_KEY = "..." }
